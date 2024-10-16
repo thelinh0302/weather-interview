@@ -1,0 +1,13 @@
+.bg-custom-light {
+  background-image: url('@/assets/bg-light.png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
+.bg-custom-dark {
+  background-image: url('@/assets/bg-dark.png'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+}
+.bg-transition {
+  transition: background-image 0.5s ease-in-out;
+}
